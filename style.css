@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+/* Estilos do header */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos da navegação */
+nav {
+    background-color: #444;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos dos links */
+a {
+    color: #007bff;
+}
+
+/* Estilos do formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form textarea, form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
